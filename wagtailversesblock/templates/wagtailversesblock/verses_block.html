@@ -1,0 +1,13 @@
+{% load static wagtailversesblock_tags %}
+{% spaceless %} 
+<blockquote style="color: #cf4040">
+    {% for key, val in self.items %}
+        {% if key == "verses" %}
+            {{ val|linebreaks|bold_verse_numbers }}
+        {% endif %}
+        {% if key == "caption" %}
+        <cite><strong>{{ val|safe }}</strong></cite>
+        {% endif %}
+    {% endfor %}
+</blockquote>
+{% endspaceless %}

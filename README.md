@@ -6,7 +6,11 @@ Bible verse highlighter/formatter streamfield block for Wagtail CMS.
 
 # Usage
 
-Import and add ``VersesBlock`` to *models.py*:
+1. Install via pip:
+
+``pip install wagtailversesblock``
+
+2. Import and add ``VersesBlock`` to *models.py*:
 
 ```python
 

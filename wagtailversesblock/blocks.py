@@ -16,12 +16,14 @@ class VersesBlock(StructBlock):
             local_blocks = local_blocks.copy()
 
         local_blocks.extend([
-            ('caption', 
+            ('caption',
             CharBlock(
                 help_text='Reference to where the verses are found in the Bible.',
                 )
             ),
-            ('verses', TextBlock()),
+            ('verses', TextBlock(
+                help_text='Scripture verses (Verse numbers will be bolded)'
+            )),
         ])
 
         super().__init__(local_blocks, **kwargs)

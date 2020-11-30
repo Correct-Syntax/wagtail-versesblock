@@ -1,16 +1,23 @@
 Wagtail Verses Block
 ====================
 
-Bible verse highlighter/formatter streamfield block for Wagtail CMS.
+Simple and easy-to-setup Bible verse highlighter/formatter streamfield block for Wagtail CMS. Useful for quoting Scripture verses in a blog post, etc.
+
+
+# Screenshots
+
+!["Wagtail verses block result"](https://github.com/Correct-Syntax/ui-style-lang/blob/master/screenshots/wagtailversesblock-block-result.JPG?raw=true "Wagtail verses block result")
+
+!["Wagtail verses block admin"](https://github.com/Correct-Syntax/ui-style-lang/blob/master/screenshots/wagtailversesblock-block-admin.JPG?raw=true "Wagtail verses block admin")
 
 
 # Usage
 
-1. Install via pip:
+Install via pip:
 
 ``pip install wagtailversesblock``
 
-2. Import and add ``VersesBlock`` to *models.py*:
+Import and add ``VersesBlock`` to *models.py*:
 
 ```python
 
@@ -18,7 +25,7 @@ Bible verse highlighter/formatter streamfield block for Wagtail CMS.
 
 from wagtail.core.models import Page
 from wagtail.core.fields import StreamField
-
+...
 from wagtailversesblock.blocks import VersesBlock
 
 ...
@@ -34,7 +41,7 @@ class ExamplePage(Page):
 ```
 
 
-# Development 
+# Development
 
 Pull requests and/or feature suggestions are welcome!
 

@@ -6,9 +6,9 @@ Simple and easy-to-setup Bible verse highlighter/formatter streamfield block for
 
 # Screenshots
 
-!["Wagtail verses block result"](https://github.com/Correct-Syntax/ui-style-lang/blob/master/screenshots/wagtailversesblock-block-result.JPG?raw=true "Wagtail verses block result")
+!["Wagtail verses block result"](https://github.com/Correct-Syntax/wagtail-versesblock/blob/master/screenshots/wagtailversesblock-block-result.jpg?raw=true "Wagtail verses block result")
 
-!["Wagtail verses block admin"](https://github.com/Correct-Syntax/ui-style-lang/blob/master/screenshots/wagtailversesblock-block-admin.JPG?raw=true "Wagtail verses block admin")
+!["Wagtail verses block admin"](https://github.com/Correct-Syntax/wagtail-versesblock/blob/master/screenshots/wagtailversesblock-block-admin.jpg?raw=true "Wagtail verses block admin")
 
 
 # Usage
